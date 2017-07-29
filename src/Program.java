@@ -1,3 +1,4 @@
+import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 import touhou.GameWindow;
 
 /**
@@ -5,8 +6,8 @@ import touhou.GameWindow;
  */
 public class Program {
     public static void main(String[] args) {
+        System.out.println("Hello World!");
         GameWindow gameWindow = new GameWindow();
-        System.out.println("Starting loop");
         gameWindow.loop();
     }
 }
